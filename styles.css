@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+#par{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#main{
+    height: 570px;
+    width: 570px;
+    border-radius: 50px;
+}
+
+#main #row1,#row2,#row3{
+    display: flex;
+}
+
+#main div div{
+    height: 170px;
+    width: 170px;
+    margin: 5px;
+    border-radius: 20px;
+    background-color: white;
+    padding: 0 35px 20px ;
+    font-size: 140px;
+}
+
+#result{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+    color: white;
+}
